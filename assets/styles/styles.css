@@ -31,7 +31,20 @@ nav .nav-wrapper {
     justify-content: space-between;
     align-items: center;
 }
-/* 
-.nav-wrapper .logo img {
-    width: 100px;
-} */
+
+.nav-wrapper .link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    list-style: none;
+}
+
+.link-wrapper a {
+    color: black;
+    text-decoration: none;
+}
+
+.link-wrapper a:hover {
+    color: rgb(46, 46, 46); 
+}
