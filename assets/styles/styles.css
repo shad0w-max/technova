@@ -76,7 +76,11 @@ header {
     height: 80%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-size: 2rem;
+    align-items: center; 
     /* padding: 50px; */
+}
+
+header h1 {
+    font-size: 4rem;
+    font-weight: 400;
 }
