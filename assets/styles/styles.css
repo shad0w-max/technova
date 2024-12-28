@@ -23,16 +23,19 @@ nav {
   justify-content: center;
   align-items: center;
 }
+
 nav .nav-wrapper {
   width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 nav .nav-wrapper .logo h1 {
   color: #0d92f4;
   font-size: 26px;
 }
+
 nav .nav-wrapper .link-wrapper {
   display: flex;
   justify-content: space-between;
@@ -40,14 +43,18 @@ nav .nav-wrapper .link-wrapper {
   gap: 70px;
   list-style: none;
 }
+
 nav .nav-wrapper .link-wrapper a {
   transition: color 0.2s ease-in-out;
 }
+
 nav .nav-wrapper .link-wrapper a:hover {
   color: rgb(85, 85, 85);
 }
+
 nav .nav-wrapper .auth-button a {
-  background-color: #0d92f4;
+  border: 2px solid #0d92f4;
+  color: #0d92f4;
   padding: 10px 20px;
   border-radius: 5px;
   font-weight: 600;
