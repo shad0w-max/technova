@@ -16,7 +16,11 @@
 body {
     font-family: "Ubuntu", sans-serif; 
     height: 100vh;
-    background-color: #e1f3ff;
+    /* background-color: #e1f3ff; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 }
 
 a {
@@ -74,13 +78,24 @@ nav .logo h1 {
 
 header {
     height: 80%;
+    width: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center; 
     /* padding: 50px; */
 }
 
+header img {
+    width: 500px;
+    height: 500px;
+}
+
 header h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 400;
+}
+
+header p {
+    font-size: 1.5rem;
+    font-weight: 300;
 }
