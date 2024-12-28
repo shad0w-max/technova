@@ -44,7 +44,7 @@ nav {
   @include flex($justify: center);
 
   .nav-wrapper {
-    width: 80%;
+    width: 90%;
     @include flex($justify: space-between);
 
     .logo h1 {
@@ -82,7 +82,7 @@ nav {
 
 header {
   height: 80%;
-  width: 80%;
+  width: 90%;
   @include flex($justify: space-between);
 
   .header-content {

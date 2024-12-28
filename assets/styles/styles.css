@@ -28,7 +28,7 @@ nav {
   align-items: center;
 }
 nav .nav-wrapper {
-  width: 80%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,7 +62,7 @@ nav .nav-wrapper .auth-button a {
 /* Header */
 header {
   height: 80%;
-  width: 80%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
