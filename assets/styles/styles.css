@@ -70,13 +70,14 @@ header {
 }
 header .header-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 header .header-content h1 {
-  font-size: 4rem;
+  font-size: 5rem;
+  line-height: 1.2;
   font-weight: 400;
   align-self: flex-start;
 }
@@ -91,31 +92,6 @@ header .header-content .waitlist {
   align-items: center;
   gap: 10px;
   align-self: flex-start;
-}
-header .header-content .waitlist input {
-  padding: 10px 30px;
-  background-color: #fff;
-  box-shadow: 1px 1px 5px black;
-  border: none;
-  font-family: "Kanit";
-  border-radius: 3px;
-  font-size: 20px;
-  font-weight: 200;
-}
-header .header-content .waitlist input:focus {
-  outline: none;
-}
-header .header-content .waitlist input::placeholder {
-  font-size: 20px;
-  font-family: "Kanit";
-}
-header .header-content .waitlist button {
-  padding: 15px 40px;
-  background-color: #0d92f4;
-  color: white;
-  border: none;
-  border-radius: 3px;
-  font-size: 20px;
 }
 header .header-image img {
   width: 600px;
