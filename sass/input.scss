@@ -3,6 +3,7 @@ $primary-light: #77cdff;
 $secondary-color: #c62e2e;
 $secondary-light: #f95454;
 $font-family: "Kanit";
+// $link-hover: #85ccff;
 
 @mixin flex($justify: Position) {
   display: flex;
@@ -29,7 +30,7 @@ body {
   @include flex_column($direction: column);
   justify-content: space-between;
   align-items: center;
-  background-color: #e5f4ff;
+  background-color: #f4faff;
 }
 
 a {
@@ -47,7 +48,7 @@ nav {
 //   box-shadow: 4px 4px 400px black;
 
   .nav-wrapper {
-    width: 90%;
+    width: 85%;
     @include flex($justify: space-between);
 
     .logo h1 {
@@ -73,8 +74,14 @@ nav {
       background-color: $primary-color;
       color: white;
       padding: 10px 30px;
-      border-radius: 5px;
+      border-radius: 2px;
       font-weight: 500;
+      transition: background-color 0.2s ease-in-out;
+    }
+
+    .auth-button a:hover {
+      background-color: $primary-light;
+      color: white; 
     }
   }
 }
@@ -85,7 +92,7 @@ nav {
 
 header {
   height: 80%;
-  width: 90%;
+  width: 85%;
   @include flex($justify: space-between); 
 
   .header-content {
@@ -110,6 +117,19 @@ header {
         @include flex($justify: space-between);
         gap: 10px;
         align-self: flex-start;
+
+        a {
+          padding: 10px 50px;
+          background-color: $primary-color;
+          color: white;
+          border-radius: 2px;
+          transition: background-color 0.2s ease-in-out;
+        }
+
+        a:hover {
+          background-color: $primary-light;
+          color: white; 
+        }
     }
   }
 

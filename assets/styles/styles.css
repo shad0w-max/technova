@@ -12,7 +12,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: #e5f4ff;
+  background-color: #f4faff;
 }
 
 a {
@@ -29,7 +29,7 @@ nav {
   align-items: center;
 }
 nav .nav-wrapper {
-  width: 90%;
+  width: 85%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -55,15 +55,20 @@ nav .nav-wrapper .auth-button a {
   background-color: #0d92f4;
   color: white;
   padding: 10px 30px;
-  border-radius: 5px;
+  border-radius: 2px;
   font-weight: 500;
+  transition: background-color 0.2s ease-in-out;
+}
+nav .nav-wrapper .auth-button a:hover {
+  background-color: #77cdff;
+  color: white;
 }
 
 /* End of Navigation Bar */
 /* Header */
 header {
   height: 80%;
-  width: 90%;
+  width: 85%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -92,6 +97,17 @@ header .header-content .waitlist {
   align-items: center;
   gap: 10px;
   align-self: flex-start;
+}
+header .header-content .waitlist a {
+  padding: 10px 50px;
+  background-color: #0d92f4;
+  color: white;
+  border-radius: 2px;
+  transition: background-color 0.2s ease-in-out;
+}
+header .header-content .waitlist a:hover {
+  background-color: #77cdff;
+  color: white;
 }
 header .header-image img {
   width: 600px;
