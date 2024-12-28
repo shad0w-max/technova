@@ -67,6 +67,17 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+header .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+header .header-content h1 {
+  font-size: 3.5rem;
+  font-weight: 400;
+}
 header .header-image img {
   width: 500px;
   height: 500px;
