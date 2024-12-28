@@ -5,14 +5,14 @@ $secondary-light: #f95454;
 $font-family: "Ubuntu";
 
 @mixin flex($justify: Position) {
-    display: flex;
-    justify-content: $justify;
-    align-items: center;
+  display: flex;
+  justify-content: $justify;
+  align-items: center;
 }
 
 @mixin flex_column($direction: direction) {
-    display: flex;
-    flex-direction: $direction; 
+  display: flex;
+  flex-direction: $direction;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
@@ -24,39 +24,55 @@ $font-family: "Ubuntu";
 }
 
 body {
-    font-family: $font-family, sans-serif; 
-    height: 100vh; 
-    @include flex_column($direction: column);
-    align-items: center;
+  font-family: $font-family, sans-serif;
+  height: 100vh;
+//   @include flex_column($direction: column);
+//   justify-content: ;
+//   align-items: center; 
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 /* Navigation Bar */
 
 nav {
-    width: 100%;
-    height: 60px;
-    @include flex($justify: center); 
+  width: 100%;
+  height: 60px;
+  @include flex($justify: center);
 
-    .nav-wrapper {
-        width: 80%;
-        @include flex($justify: space-between);
+  .nav-wrapper {
+    width: 80%;
+    @include flex($justify: space-between);
 
-        .logo h1 {
-            color: $primary-color;
-            font-size: 26px;
-        }
-
-        .link-wrapper {
-            @include flex($justify: space-between);
-            gap: 70%;
-            list-style: none;
-        }
+    .logo h1 {
+      color: $primary-color;
+      font-size: 26px;
     }
+
+    .link-wrapper {
+      @include flex($justify: space-between);
+      gap: 70px;
+      list-style: none;
+
+      a {
+        transition: color 0.2s ease-in-out;
+      }
+
+      a:hover {
+        color: rgb(85, 85, 85);
+      }
+    }
+
+    .auth-button a {
+      background-color: $primary-color;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: 600;
+    }
+  }
 }
 
 /* End of Navigation Bar */
