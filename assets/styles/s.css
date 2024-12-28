@@ -78,8 +78,7 @@ header {
     width: 80%;
     display: flex;
     justify-content: space-between;
-    align-items: center; 
-    /* padding: 50px; */
+    align-items: center;  
 }
 
 header img {
