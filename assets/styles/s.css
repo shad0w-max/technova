@@ -31,8 +31,7 @@ nav {
     height: 60px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    /* border-bottom: 1px solid black; */
+    align-items: center; 
 }
 
 nav .nav-wrapper {
