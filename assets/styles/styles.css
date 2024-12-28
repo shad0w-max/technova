@@ -8,6 +8,10 @@
 body {
   font-family: "Ubuntu", sans-serif;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 a {
@@ -23,19 +27,16 @@ nav {
   justify-content: center;
   align-items: center;
 }
-
 nav .nav-wrapper {
   width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 nav .nav-wrapper .logo h1 {
   color: #0d92f4;
   font-size: 26px;
 }
-
 nav .nav-wrapper .link-wrapper {
   display: flex;
   justify-content: space-between;
@@ -43,15 +44,12 @@ nav .nav-wrapper .link-wrapper {
   gap: 70px;
   list-style: none;
 }
-
 nav .nav-wrapper .link-wrapper a {
   transition: color 0.2s ease-in-out;
 }
-
 nav .nav-wrapper .link-wrapper a:hover {
   color: rgb(85, 85, 85);
 }
-
 nav .nav-wrapper .auth-button a {
   border: 2px solid #0d92f4;
   color: #0d92f4;
@@ -61,5 +59,15 @@ nav .nav-wrapper .auth-button a {
 }
 
 /* End of Navigation Bar */
+/* Header */
+header {
+  height: 80%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* End of Header */
 
 /*# sourceMappingURL=styles.css.map */

@@ -26,9 +26,9 @@ $font-family: "Ubuntu";
 body {
   font-family: $font-family, sans-serif;
   height: 100vh;
-  //   @include flex_column($direction: column);
-  //   justify-content: ;
-  //   align-items: center;
+  @include flex_column($direction: column);
+  justify-content: space-between;
+  align-items: center;
 }
 
 a {
@@ -77,3 +77,13 @@ nav {
 }
 
 /* End of Navigation Bar */
+
+/* Header */
+
+header {
+  height: 80%;
+  width: 80%;
+  @include flex($justify: space-between);
+}
+
+/* End of Header */
