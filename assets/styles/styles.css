@@ -67,6 +67,10 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+header .header-image img {
+  width: 500px;
+  height: 500px;
+}
 
 /* End of Header */
 

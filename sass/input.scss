@@ -84,6 +84,11 @@ header {
   height: 80%;
   width: 80%;
   @include flex($justify: space-between);
+
+  .header-image img {
+    width: 500px;
+    height: 500px;
+  }
 }
 
 /* End of Header */
