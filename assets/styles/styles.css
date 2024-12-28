@@ -25,5 +25,15 @@ nav {
   justify-content: center;
   align-items: center;
 }
+nav .nav-wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .nav-wrapper .logo h1 {
+  color: #0d92f4;
+  font-size: 26px;
+}
 
 /*# sourceMappingURL=styles.css.map */
