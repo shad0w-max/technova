@@ -29,3 +29,8 @@ body {
     @include flex_column($direction: column);
     align-items: center;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
