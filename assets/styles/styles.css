@@ -1,17 +1,117 @@
-/* Error: expected "{".
- *     ,
- * 134 |         }rgb(161, 146, 146)
- *     |                            ^
- *     '
- *   sass/input.scss 134:28  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a     \2577 \a 134 \2502          }rgb(161, 146, 146)\a     \2502                             ^\a     \2575 \a   sass/input.scss 134:28  root stylesheet';
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: "Kanit", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(https://img.freepik.com/free-photo/dark-blue-textile-texture_23-2147729354.jpg?t=st=1735420999~exp=1735424599~hmac=f7e416ceb0501ea760a9759ff422fd9aa81903c55608804c98654a5cf49ba5de&w=740);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Navigation Bar */
+nav {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .nav-wrapper {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .nav-wrapper .logo h1 {
+  color: #0d92f4;
+  font-size: 26px;
+}
+nav .nav-wrapper .link-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+  list-style: none;
+}
+nav .nav-wrapper .link-wrapper a {
+  transition: color 0.2s ease-in-out;
+}
+nav .nav-wrapper .link-wrapper a:hover {
+  color: rgb(85, 85, 85);
+}
+nav .nav-wrapper .auth-button a {
+  background-color: #0d92f4;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 2px;
+  font-weight: 500;
+  transition: background-color 0.2s ease-in-out;
+}
+nav .nav-wrapper .auth-button a:hover {
+  background-color: #77cdff;
+  color: white;
+}
+
+/* End of Navigation Bar */
+/* Header */
+header {
+  height: 80%;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+header .header-content h1 {
+  font-size: 5.5rem;
+  line-height: 1.2;
+  font-weight: 600;
+}
+header .header-content p {
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-align: center;
+  width: 50%;
+}
+header .header-content .waitlist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-content .waitlist a {
+  padding: 10px 50px;
+  background-color: #0d92f4;
+  color: white;
+  border-radius: 2px;
+  transition: background-color 0.2s ease-in-out;
+}
+header .header-content .waitlist a:hover {
+  background-color: #77cdff;
+  color: white;
+}
+
+/* End of Header */
+
+/*# sourceMappingURL=styles.css.map */
