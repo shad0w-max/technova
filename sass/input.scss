@@ -26,7 +26,7 @@ $font-family: "Kanit";
 
 body {
   font-family: $font-family, sans-serif;
-  // height: 100vh;
+  height: 100vh;
   @include flex_column($direction: column);
   // justify-content: space-between;
   align-items: center;
