@@ -148,4 +148,8 @@ header {
 #features {
   background-color: #fff;
   width: 100%;
+  color: black;
+
+  @include flex($justify: center);
+  flex-direction: column;
 }

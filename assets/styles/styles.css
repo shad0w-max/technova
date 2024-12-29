@@ -115,6 +115,11 @@ header .header-content .waitlist a:hover {
 #features {
   background-color: #fff;
   width: 100%;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=styles.css.map */
