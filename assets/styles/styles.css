@@ -138,19 +138,22 @@ header .header-content .waitlist a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  align-items: flex-start;
   gap: 50px;
+  margin-bottom: 20px;
 }
 #features .features .feature {
   width: 30%;
-  height: 400px;
+  height: 300px;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
   gap: 5px;
-  border: 2px solid #0d92f4;
+  border: 1px solid #0d92f4;
 }
-#features .features .feature img {
+#features .features .feature .fa-solid {
   width: 100px;
   height: 100px;
 }

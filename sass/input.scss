@@ -170,17 +170,20 @@ header {
   .features {
     width: 85%;
     @include flex($justify: space-between);
+    align-items: flex-start;
     gap: 50px;
+    margin-bottom: 20px;
 
     .feature {
       width: 30%;
-      height: 400px;
-      @include flex($justify: space-between);
+      height: 300px;
+      padding: 10px ;
+      @include flex($justify: space-between); 
       flex-direction: column;
       gap: 5px;
-      border: 2px solid $primary-color;
+      border: 1px solid $primary-color;
 
-      img {
+      .fa-solid {
         width: 100px;
         height: 100px;
       }
