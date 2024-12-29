@@ -142,11 +142,13 @@ header .header-content .waitlist a:hover {
 }
 #features .features .feature {
   width: 30%;
+  height: 400px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
+  border: 2px solid #0d92f4;
 }
 #features .features .feature img {
   width: 100px;

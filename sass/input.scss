@@ -174,9 +174,11 @@ header {
 
     .feature {
       width: 30%;
-      @include flex($justify: center);
+      height: 400px;
+      @include flex($justify: space-between);
       flex-direction: column;
-      gap: 10px;
+      gap: 5px;
+      border: 2px solid $primary-color;
 
       img {
         width: 100px;
