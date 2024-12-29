@@ -176,18 +176,18 @@ header {
 
     .feature {
       width: 30%;
-      height: 300px;
+      height: 350px;
       padding: 10px ;
-      @include flex($justify: space-between); 
+      @include flex($justify: center); 
       flex-direction: column;
       gap: 5px;
-      border: 1px solid $primary-color;
+      border: 0.5px solid black;
       border-radius: 10px;
       box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.74);
 
       .fa-solid {
-        width: 100px;
-        height: 100px;
+        font-size: 3.5rem;
+        text-align: center;
       }
 
       h3 {
@@ -198,8 +198,8 @@ header {
       p {
         font-size: 1.2rem;
         font-weight: 200;
-        align-self: stretch; 
-        width: 100%;
+        align-self: center; 
+        width: 80%;
       }
     }
   }

@@ -144,20 +144,20 @@ header .header-content .waitlist a:hover {
 }
 #features .features .feature {
   width: 30%;
-  height: 300px;
+  height: 350px;
   padding: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 5px;
-  border: 1px solid #0d92f4;
+  border: 0.5px solid black;
   border-radius: 10px;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.74);
 }
 #features .features .feature .fa-solid {
-  width: 100px;
-  height: 100px;
+  font-size: 3.5rem;
+  text-align: center;
 }
 #features .features .feature h3 {
   font-size: 2rem;
@@ -166,8 +166,8 @@ header .header-content .waitlist a:hover {
 #features .features .feature p {
   font-size: 1.2rem;
   font-weight: 200;
-  align-self: stretch;
-  width: 100%;
+  align-self: center;
+  width: 80%;
 }
 
 /*# sourceMappingURL=styles.css.map */
