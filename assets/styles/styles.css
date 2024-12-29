@@ -152,6 +152,8 @@ header .header-content .waitlist a:hover {
   flex-direction: column;
   gap: 5px;
   border: 1px solid #0d92f4;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.74);
 }
 #features .features .feature .fa-solid {
   width: 100px;
@@ -164,7 +166,8 @@ header .header-content .waitlist a:hover {
 #features .features .feature p {
   font-size: 1.2rem;
   font-weight: 200;
-  text-align: center;
+  align-self: stretch;
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */
