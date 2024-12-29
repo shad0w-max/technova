@@ -121,5 +121,45 @@ header .header-content .waitlist a:hover {
   align-items: center;
   flex-direction: column;
 }
+#features h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 50px 0;
+}
+#features p {
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 50px;
+}
+#features .features {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+#features .features .feature {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+#features .features .feature img {
+  width: 100px;
+  height: 100px;
+}
+#features .features .feature h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+#features .features .feature p {
+  font-size: 1.2rem;
+  font-weight: 200;
+  text-align: center;
+}
 
 /*# sourceMappingURL=styles.css.map */

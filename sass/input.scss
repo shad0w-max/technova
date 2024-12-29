@@ -152,4 +152,47 @@ header {
 
   @include flex($justify: center);
   flex-direction: column;
+
+  h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 50px 0;
+  }
+
+  p {
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .features {
+    width: 85%;
+    @include flex($justify: space-between);
+    gap: 50px;
+
+    .feature {
+      width: 30%;
+      @include flex($justify: center);
+      flex-direction: column;
+      gap: 10px;
+
+      img {
+        width: 100px;
+        height: 100px;
+      }
+
+      h3 {
+        font-size: 2rem;
+        font-weight: 500;
+      }
+
+      p {
+        font-size: 1.2rem;
+        font-weight: 200;
+        text-align: center;
+      }
+    }
+  }
 }
