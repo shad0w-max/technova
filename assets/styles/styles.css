@@ -158,6 +158,7 @@ header .header-content .waitlist a:hover {
 #features .features .feature .fa-solid {
   font-size: 3.5rem;
   text-align: center;
+  background-color: red;
 }
 #features .features .feature h3 {
   font-size: 2rem;
