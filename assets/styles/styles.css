@@ -70,7 +70,6 @@ nav .nav-wrapper .auth-button a:hover {
 /* Header */
 header {
   height: 500px;
-  width: 85%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -191,6 +190,10 @@ header .header-content .waitlist a:hover {
   padding: 10px 30px;
   margin-top: 30px;
   border-radius: 5px;
+  transition: background-color 0.2s ease-in-out;
+}
+#features a:hover {
+  background-color: #77cdff;
 }
 
 /*# sourceMappingURL=styles.css.map */
