@@ -301,6 +301,7 @@ header {
     @include flex($justify: center);
     gap: 20px;
     width: 85%;
+    height: 65%;
     padding: 50px;
     // background-color: $primary-color;
 
@@ -309,6 +310,7 @@ header {
       flex-direction: column;
       align-items: flex-start;
       width: 50%;
+      height: 100%;
       gap: 20px;
 
       p {
@@ -329,6 +331,7 @@ header {
       @include flex($justify: center);
       gap: 30px;
       width: 50%;
+      height: 100%;
 
       form {
         width: 100%;
@@ -340,10 +343,11 @@ header {
 
       input,
       textarea {
-        width: 100%;
+        width: 100%; 
         padding: 10px;
         margin-bottom: 5px;
         border: 1px solid #ccc;
+        font-size: 20px;
         border-top: none;
         border-right: none;
         border-left: none;
@@ -353,6 +357,10 @@ header {
       textarea:focus {
         outline: none;
         border-bottom: 1px solid $primary-color;
+      }
+
+      #message { 
+        height: 100px;
       }
 
       button {

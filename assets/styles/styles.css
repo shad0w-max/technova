@@ -262,6 +262,7 @@ header .header-content .waitlist a:hover {
   align-items: center;
   gap: 20px;
   width: 85%;
+  height: 65%;
   padding: 50px;
 }
 #contact-us .contact-content .contact-info {
@@ -271,6 +272,7 @@ header .header-content .waitlist a:hover {
   flex-direction: column;
   align-items: flex-start;
   width: 50%;
+  height: 100%;
   gap: 20px;
 }
 #contact-us .contact-content .contact-info p {
@@ -289,6 +291,7 @@ header .header-content .waitlist a:hover {
   align-items: center;
   gap: 30px;
   width: 50%;
+  height: 100%;
 }
 #contact-us .contact-content .contact-form form {
   width: 100%;
@@ -305,6 +308,7 @@ header .header-content .waitlist a:hover {
   padding: 10px;
   margin-bottom: 5px;
   border: 1px solid #ccc;
+  font-size: 20px;
   border-top: none;
   border-right: none;
   border-left: none;
@@ -313,6 +317,9 @@ header .header-content .waitlist a:hover {
 #contact-us .contact-content .contact-form textarea:focus {
   outline: none;
   border-bottom: 1px solid #0d92f4;
+}
+#contact-us .contact-content .contact-form #message {
+  height: 100px;
 }
 #contact-us .contact-content .contact-form button {
   background-color: #0d92f4;
