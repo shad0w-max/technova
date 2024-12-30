@@ -103,6 +103,7 @@ header .header-content .waitlist a {
   background-color: #0d92f4;
   color: white;
   border-radius: 2px;
+  margin-top: 10px;
   transition: background-color 0.2s ease-in-out;
 }
 header .header-content .waitlist a:hover {
