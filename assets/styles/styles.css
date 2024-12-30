@@ -207,6 +207,37 @@ header .header-content .waitlist a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: #fff;
+  color: black;
+}
+#about h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 50px 0;
+}
+#about p {
+  font-size: 1.5rem;
+  font-weight: 200;
+  width: 50%;
+  margin-bottom: 50px;
+  align-self: flex-start;
+}
+#about .about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+  width: 85%;
+  gap: 20px;
+}
+#about .about-content .about-image {
+  width: 50%;
+}
+#about .about-content .about-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 /* End of about section */
