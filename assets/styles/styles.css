@@ -257,6 +257,7 @@ header .header-content .waitlist a:hover {
   align-items: center;
   gap: 20px;
   width: 85%;
+  padding: 50px;
   background-color: #0d92f4;
 }
 #contact-us .contact-content h2 {
@@ -270,6 +271,7 @@ header .header-content .waitlist a:hover {
   flex-direction: column;
   align-items: flex-start;
   width: 50%;
+  gap: 20px;
 }
 #contact-us .contact-content .contact-info p {
   font-size: 24px;
