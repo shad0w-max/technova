@@ -241,5 +241,15 @@ header .header-content .waitlist a:hover {
 }
 
 /* End of about section */
+/* Contact Section */
+#contact-us {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: black;
+}
 
 /*# sourceMappingURL=styles.css.map */
