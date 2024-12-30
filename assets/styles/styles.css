@@ -111,6 +111,7 @@ header .header-content .waitlist a:hover {
 }
 
 /* End of Header */
+/* Features Section */
 #features {
   background-color: #fff;
   width: 100%;
@@ -196,5 +197,7 @@ header .header-content .waitlist a:hover {
 #features a:hover {
   background-color: #77cdff;
 }
+
+/* End of Features */
 
 /*# sourceMappingURL=styles.css.map */
