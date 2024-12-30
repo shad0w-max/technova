@@ -101,8 +101,8 @@ nav {
 /* Header */
 
 header {
-  height: 500px; 
-  @include flex($justify: space-between); 
+  height: 500px;
+  @include flex($justify: space-between);
 
   .header-content {
     @include flex($justify: center);
@@ -149,7 +149,7 @@ header {
 #features {
   background-color: #fff;
   width: 100%;
-  color: black; 
+  color: black;
   padding-bottom: 30px;
   @include flex($justify: center);
   flex-direction: column;
@@ -178,8 +178,8 @@ header {
     .feature {
       width: 30%;
       height: 350px;
-      padding: 10px ;
-      @include flex($justify: center); 
+      padding: 10px;
+      @include flex($justify: center);
       flex-direction: column;
       align-items: flex-baseline;
       gap: 5px;
@@ -189,7 +189,6 @@ header {
       transition: all 0.2s ease-in-out;
 
       .icon-bg {
-
         background-color: $primary-color;
         min-width: 100px;
         min-height: 100px;
@@ -198,12 +197,10 @@ header {
 
         .fa-solid {
           font-size: 3.5rem;
-          text-align: center; 
+          text-align: center;
           color: white;
         }
       }
-
-      
 
       h3 {
         font-size: 2rem;
@@ -213,7 +210,7 @@ header {
       p {
         font-size: 1.2rem;
         font-weight: 300;
-        align-self: center; 
+        align-self: center;
         width: 80%;
       }
     }
@@ -225,7 +222,6 @@ header {
     }
   }
 
-
   a {
     background-color: $primary-color;
     color: white;
@@ -236,7 +232,7 @@ header {
   }
 
   a:hover {
-    background-color: $primary-light; 
+    background-color: $primary-light;
   }
 }
 
@@ -260,7 +256,7 @@ header {
 
   p {
     font-size: 1.5rem;
-    font-weight: 200; 
+    font-weight: 200;
     width: 50%;
     margin-bottom: 50px;
     align-self: flex-start;
@@ -272,8 +268,8 @@ header {
     width: 85%;
     gap: 20px;
 
-    .about-image { 
-      width: 50%;  
+    .about-image {
+      width: 50%;
 
       img {
         width: 100%;
@@ -294,9 +290,9 @@ header {
   @include flex($justify: center);
   background-color: #fff;
   color: black;
-  
+
   .contact-content {
-    @include flex($justify: center); 
+    @include flex($justify: center);
     gap: 20px;
 
     h2 {
@@ -304,31 +300,32 @@ header {
       font-weight: 600;
     }
 
-    p {
-      font-size: 24px;
-      font-weight: 200;
-      text-align: center;
-      width: 50%;
-    }
-
     .contact-info {
       @include flex($justify: space-between);
       flex-direction: column;
       align-items: flex-start;
+
+      p {
+        font-size: 24px;
+        font-weight: 200;
+        // width: 50%;
+      }
     }
 
     .contact-form {
       @include flex($justify: center);
       gap: 20px;
 
-      input, textarea {
+      input,
+      textarea {
         width: 50%;
         padding: 10px;
         border-radius: 5px;
         border: 1px solid #ccc;
       }
 
-      input:focus, textarea:focus {
+      input:focus,
+      textarea:focus {
         outline: none;
         border: 1px solid $primary-color;
       }

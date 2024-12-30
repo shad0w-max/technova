@@ -261,12 +261,6 @@ header .header-content .waitlist a:hover {
   font-size: 3rem;
   font-weight: 600;
 }
-#contact-us .contact-content p {
-  font-size: 24px;
-  font-weight: 200;
-  text-align: center;
-  width: 50%;
-}
 #contact-us .contact-content .contact-info {
   display: flex;
   justify-content: space-between;
@@ -274,19 +268,25 @@ header .header-content .waitlist a:hover {
   flex-direction: column;
   align-items: flex-start;
 }
+#contact-us .contact-content .contact-info p {
+  font-size: 24px;
+  font-weight: 200;
+}
 #contact-us .contact-content .contact-form {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
-#contact-us .contact-content .contact-form input, #contact-us .contact-content .contact-form textarea {
+#contact-us .contact-content .contact-form input,
+#contact-us .contact-content .contact-form textarea {
   width: 50%;
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
 }
-#contact-us .contact-content .contact-form input:focus, #contact-us .contact-content .contact-form textarea:focus {
+#contact-us .contact-content .contact-form input:focus,
+#contact-us .contact-content .contact-form textarea:focus {
   outline: none;
   border: 1px solid #0d92f4;
 }
