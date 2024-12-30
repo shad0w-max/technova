@@ -251,5 +251,9 @@ header .header-content .waitlist a:hover {
   background-color: #fff;
   color: black;
 }
+#contact-us fab {
+  font-size: 3rem;
+  color: #0d92f4;
+}
 
 /*# sourceMappingURL=styles.css.map */

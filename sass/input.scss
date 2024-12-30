@@ -294,4 +294,9 @@ header {
   @include flex($justify: center);
   background-color: #fff;
   color: black;
+
+  fab {
+    font-size: 3rem;
+    color: $primary-color;
+  }
 }
