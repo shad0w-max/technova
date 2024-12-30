@@ -244,7 +244,7 @@ header .header-content .waitlist a:hover {
 /* Contact Section */
 #contact-us {
   width: 100%;
-  height: 500px;
+  height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -288,7 +288,15 @@ header .header-content .waitlist a:hover {
   justify-content: center;
   align-items: center;
   gap: 30px;
+  width: 50%;
+}
+#contact-us .contact-content .contact-form form {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: stretch;
+  flex-direction: column;
 }
 #contact-us .contact-content .contact-form input,
 #contact-us .contact-content .contact-form textarea {
