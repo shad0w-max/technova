@@ -351,5 +351,17 @@ header .header-content .waitlist a:hover {
   font-size: 1rem;
   font-weight: 200;
 }
+.footer .socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  list-style: none;
+  gap: 20px;
+}
+.footer .socials a {
+  font-size: 24px;
+  color: white;
+}
 
 /*# sourceMappingURL=styles.css.map */
