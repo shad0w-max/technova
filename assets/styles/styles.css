@@ -267,6 +267,13 @@ header .header-content .waitlist a:hover {
   text-align: center;
   width: 50%;
 }
+#contact-us .contact-content .contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
 #contact-us .contact-content .contact-form {
   display: flex;
   justify-content: center;

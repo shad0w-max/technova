@@ -311,6 +311,12 @@ header {
       width: 50%;
     }
 
+    .contact-info {
+      @include flex($justify: space-between);
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
     .contact-form {
       @include flex($justify: center);
       gap: 20px;
