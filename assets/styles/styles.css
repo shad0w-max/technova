@@ -199,5 +199,16 @@ header .header-content .waitlist a:hover {
 }
 
 /* End of Features */
+/* About section */
+#about {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* End of about section */
 
 /*# sourceMappingURL=styles.css.map */
