@@ -296,8 +296,7 @@ header {
   color: black;
   
   .contact-content {
-    @include flex($justify: center);
-    flex-direction: column;
+    @include flex($justify: center); 
     gap: 20px;
 
     h2 {

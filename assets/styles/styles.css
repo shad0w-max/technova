@@ -255,7 +255,6 @@ header .header-content .waitlist a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   gap: 20px;
 }
 #contact-us .contact-content h2 {
