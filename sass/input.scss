@@ -327,28 +327,33 @@ header {
 
     .contact-form {
       @include flex($justify: center);
-      gap: 20px;
-      width: 50%;
+      gap: 30px;
+      width: 100%;
 
       input,
       textarea {
-        width: 50%;
+        width: 100%;
         padding: 10px;
-        border-radius: 5px;
+        margin-bottom: 5px;
         border: 1px solid #ccc;
+        border-top: none;
+        border-right: none;
+        border-left: none;
       }
 
       input:focus,
       textarea:focus {
         outline: none;
-        border: 1px solid $primary-color;
+        border-bottom: 1px solid $primary-color;
       }
 
       button {
         background-color: $primary-color;
         color: white;
         padding: 10px 30px;
-        border-radius: 5px;
+        width: 100%;
+        border: none;
+        border-radius: 1px;
         transition: background-color 0.2s ease-in-out;
       }
 

@@ -287,26 +287,31 @@ header .header-content .waitlist a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
-  width: 50%;
+  gap: 30px;
+  width: 100%;
 }
 #contact-us .contact-content .contact-form input,
 #contact-us .contact-content .contact-form textarea {
-  width: 50%;
+  width: 100%;
   padding: 10px;
-  border-radius: 5px;
+  margin-bottom: 5px;
   border: 1px solid #ccc;
+  border-top: none;
+  border-right: none;
+  border-left: none;
 }
 #contact-us .contact-content .contact-form input:focus,
 #contact-us .contact-content .contact-form textarea:focus {
   outline: none;
-  border: 1px solid #0d92f4;
+  border-bottom: 1px solid #0d92f4;
 }
 #contact-us .contact-content .contact-form button {
   background-color: #0d92f4;
   color: white;
   padding: 10px 30px;
-  border-radius: 5px;
+  width: 100%;
+  border: none;
+  border-radius: 1px;
   transition: background-color 0.2s ease-in-out;
 }
 #contact-us .contact-content .contact-form button:hover {
