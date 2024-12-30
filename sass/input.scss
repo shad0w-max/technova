@@ -288,20 +288,21 @@ header {
   width: 100%;
   height: 500px;
   @include flex($justify: center);
+  flex-direction: column;
   background-color: #fff;
   color: black;
+
+  h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
 
   .contact-content {
     @include flex($justify: center);
     gap: 20px;
     width: 85%;
     padding: 50px;
-    background-color: $primary-color;
-
-    h2 {
-      font-size: 3rem;
-      font-weight: 600;
-    }
+    // background-color: $primary-color;
 
     .contact-info {
       @include flex($justify: space-between);
@@ -314,6 +315,13 @@ header {
         font-size: 24px;
         font-weight: 200;
         // width: 50%;
+      }
+
+      .fa {
+        font-size: 24px;
+        color: $primary-color;
+        display: inline-block;
+        padding: 0 10px 0 0;
       }
     }
 

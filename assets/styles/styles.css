@@ -248,8 +248,13 @@ header .header-content .waitlist a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   background-color: #fff;
   color: black;
+}
+#contact-us h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
 }
 #contact-us .contact-content {
   display: flex;
@@ -258,11 +263,6 @@ header .header-content .waitlist a:hover {
   gap: 20px;
   width: 85%;
   padding: 50px;
-  background-color: #0d92f4;
-}
-#contact-us .contact-content h2 {
-  font-size: 3rem;
-  font-weight: 600;
 }
 #contact-us .contact-content .contact-info {
   display: flex;
@@ -276,6 +276,12 @@ header .header-content .waitlist a:hover {
 #contact-us .contact-content .contact-info p {
   font-size: 24px;
   font-weight: 200;
+}
+#contact-us .contact-content .contact-info .fa {
+  font-size: 24px;
+  color: #0d92f4;
+  display: inline-block;
+  padding: 0 10px 0 0;
 }
 #contact-us .contact-content .contact-form {
   display: flex;
