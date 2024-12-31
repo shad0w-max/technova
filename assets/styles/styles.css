@@ -23,6 +23,25 @@ a {
 }
 
 /* Mobile Design */
+@media (max-width: 768px) {
+  nav {
+    height: 50px;
+    background-color: #fff;
+    box-shadow: 4px 4px 400px black;
+  }
+  nav .nav-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav .nav-wrapper a {
+    font-size: 18px;
+  }
+  header {
+    height: 100vh;
+  }
+}
 /* Navigation Bar */
 nav {
   width: 100%;
