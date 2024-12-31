@@ -145,10 +145,10 @@ header .header-content .waitlist a:hover {
 }
 #features .features .feature {
   width: 30%;
-  height: 350px;
+  height: 440px;
   padding: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
   align-items: flex-baseline;
@@ -371,8 +371,14 @@ header .header-content .waitlist a:hover {
 
 /* End of Footer */
 /* Media Queries */
+/* Mobile */
+@media (max-width: 690px) {
+  .link-wrapper {
+    display: none !important;
+  }
+}
 /* Tablet */
-@media (max-width: 800px) {
+@media (max-width: 910px) {
   nav {
     height: 80px;
     width: 100%;
@@ -455,8 +461,9 @@ header .header-content .waitlist a:hover {
     height: 300px;
   }
   #contact-us {
-    height: 700px;
-    justify-content: space-between;
+    height: 800px;
+    gap: 20px;
+    justify-content: space-evenly;
   }
   #contact-us h3 {
     font-size: 2rem;

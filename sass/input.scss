@@ -178,9 +178,9 @@ header {
 
     .feature {
       width: 30%;
-      height: 350px;
+      height: 440px;
       padding: 10px;
-      @include flex($justify: center);
+      @include flex($justify: space-evenly);
       flex-direction: column;
       align-items: flex-baseline;
       gap: 5px;
@@ -424,8 +424,16 @@ header {
 /* End of Footer */
 
 /* Media Queries */
+
+/* Mobile */
+@media (max-width: 690px) {
+  .link-wrapper {
+    display: none !important; // hide links on mobile
+  }
+}
+
 /* Tablet */
-@media (max-width: 800px) { 
+@media (max-width: 910px) { 
 
   nav {
     height: 80px;
@@ -533,8 +541,9 @@ header {
   }
 
   #contact-us {
-    height: 700px;
-    justify-content: space-between; 
+    height: 800px;
+    gap: 20px;
+    justify-content: space-evenly; 
     h3 {
       font-size: 2rem;
     }
@@ -581,5 +590,6 @@ header {
     }
   }
 } 
+
 
 /* End of Media Queries */
