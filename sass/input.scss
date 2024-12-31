@@ -424,7 +424,8 @@ header {
 /* End of Footer */
 
 /* Media Queries */
-@media (max-width: 768px) { 
+/* Tablet */
+@media (max-width: 800px) { 
 
   nav {
     height: 80px;
@@ -437,11 +438,11 @@ header {
       }
 
       .link-wrapper {
-        gap: 50px;
-        display: none; // hide links on mobile
+        gap: 20px;
+        // display: none; // hide links on mobile
 
         a {
-          font-size: 1px;
+          font-size: 20px;
         }
       }
 
@@ -579,4 +580,6 @@ header {
       }
     }
   }
-}
+} 
+
+/* End of Media Queries */

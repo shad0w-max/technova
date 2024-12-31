@@ -371,7 +371,8 @@ header .header-content .waitlist a:hover {
 
 /* End of Footer */
 /* Media Queries */
-@media (max-width: 768px) {
+/* Tablet */
+@media (max-width: 800px) {
   nav {
     height: 80px;
     width: 100%;
@@ -383,11 +384,10 @@ header .header-content .waitlist a:hover {
     font-size: 25px;
   }
   nav .nav-wrapper .link-wrapper {
-    gap: 50px;
-    display: none;
+    gap: 20px;
   }
   nav .nav-wrapper .link-wrapper a {
-    font-size: 1px;
+    font-size: 20px;
   }
   nav .nav-wrapper .auth-button a {
     padding: 5px 20px;
@@ -493,5 +493,6 @@ header .header-content .waitlist a:hover {
     font-size: 18px;
   }
 }
+/* End of Media Queries */
 
 /*# sourceMappingURL=styles.css.map */
