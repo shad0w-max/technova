@@ -11,12 +11,7 @@ body {
   flex-direction: column;
   align-items: center;
   background: rgb(2, 0, 36);
-  background: linear-gradient(
-    148deg,
-    rgb(2, 0, 36) 0%,
-    rgb(9, 9, 121) 35%,
-    rgb(0, 212, 255) 100%
-  );
+  background: linear-gradient(148deg, rgb(2, 0, 36) 0%, rgb(9, 9, 121) 35%, rgb(0, 212, 255) 100%);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -346,12 +341,7 @@ header .header-content .waitlist a:hover {
 .footer {
   width: 100%;
   height: 200px;
-  background: linear-gradient(
-    148deg,
-    rgb(2, 0, 36) 0%,
-    rgb(9, 9, 121) 35%,
-    rgb(0, 212, 255) 100%
-  );
+  background: linear-gradient(148deg, rgb(2, 0, 36) 0%, rgb(9, 9, 121) 35%, rgb(0, 212, 255) 100%);
   color: white;
   display: flex;
   justify-content: center;
@@ -383,9 +373,6 @@ header .header-content .waitlist a:hover {
 /* End of Footer */
 /* Media Queries */
 @media (max-width: 768px) {
-  body {
-    gap: 10px;
-  }
   nav {
     height: 80px;
     width: 100%;
@@ -409,7 +396,6 @@ header .header-content .waitlist a:hover {
   }
   header {
     width: 100%;
-    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -426,6 +412,47 @@ header .header-content .waitlist a:hover {
   header .header-content .waitlist a {
     padding: 5px 20px;
     font-size: 14px;
+  }
+  #features h2 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+  }
+  #features p {
+    font-size: 1.2rem;
+    width: 80%;
+  }
+  #features .features {
+    flex-direction: column;
+  }
+  #features .features .feature {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 10px;
+  }
+  #features .features .feature h3 {
+    font-size: 1.5rem;
+  }
+  #features .features .feature p {
+    font-size: 1.2rem;
+  }
+  #about h2 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+  }
+  #about p {
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: justify;
+    align-self: center;
+    margin-bottom: 10px;
+  }
+  #about .about-content {
+    flex-direction: column;
+    gap: 0;
+  }
+  #about .about-content .about-image {
+    width: 100%;
+    height: 300px;
   }
 }
 

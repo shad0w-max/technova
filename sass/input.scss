@@ -426,10 +426,7 @@ header {
 /* End of Footer */
 
 /* Media Queries */
-@media (max-width: 768px) {
-  body { 
-    gap: 10px;
-  }
+@media (max-width: 768px) { 
 
   nav {
     height: 80px;
@@ -458,8 +455,7 @@ header {
   }
 
   header {
-    width: 100%;
-    height: 500px;
+    width: 100%; 
     @include flex($justify: center); 
 
     .header-content {
@@ -477,6 +473,61 @@ header {
       .waitlist a {
         padding: 5px 20px;
         font-size: 14px;
+      }
+    }
+  }
+
+  #features {
+    h2 {
+      font-size: 2.5rem;
+      margin: 20px 0;
+    }
+
+    p {
+      font-size: 1.2rem;
+      width: 80%;
+    }
+
+    .features {
+      flex-direction: column;
+
+      .feature {
+        width: 100%;
+        height: 350px;
+        margin-bottom: 10px;
+
+        h3 {
+          font-size: 1.5rem;
+        }
+
+        p {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+
+  #about { 
+    h2 {
+      font-size: 2.5rem;
+      margin: 20px 0;
+    }
+
+    p {
+      font-size: 1.2rem;
+      width: 100%;
+      text-align: justify;
+      align-self: center;
+      margin-bottom: 10px;
+    }
+
+    .about-content {
+      flex-direction: column;
+      gap: 0;
+
+      .about-image {
+        width: 100%;
+        height: 300px;
       }
     }
   }
