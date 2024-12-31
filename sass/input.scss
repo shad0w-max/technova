@@ -446,8 +446,9 @@ header {
       }
 
       .auth-button a {
-        padding: 5px 10px;
-        font-size: 20px;
+        padding: 5px 20px;
+        font-size: 15px;
+        font-weight: 400;
       }
     }
   }
@@ -531,7 +532,8 @@ header {
   }
 
   #contact-us {
-    height: 1000px;
+    height: 650px;
+    justify-content: space-between; 
     h3 {
       font-size: 2rem;
     }
@@ -541,6 +543,7 @@ header {
       flex-direction: column-reverse;
       gap: 30px;
       padding: 20px;
+      margin-bottom: 40px;
 
       .contact-info {
         width: 100%;

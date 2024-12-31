@@ -390,8 +390,9 @@ header .header-content .waitlist a:hover {
     font-size: 1px;
   }
   nav .nav-wrapper .auth-button a {
-    padding: 5px 10px;
-    font-size: 20px;
+    padding: 5px 20px;
+    font-size: 15px;
+    font-weight: 400;
   }
   header {
     width: 100%;
@@ -454,7 +455,8 @@ header .header-content .waitlist a:hover {
     height: 300px;
   }
   #contact-us {
-    height: 1000px;
+    height: 650px;
+    justify-content: space-between;
   }
   #contact-us h3 {
     font-size: 2rem;
@@ -464,6 +466,7 @@ header .header-content .waitlist a:hover {
     flex-direction: column-reverse;
     gap: 30px;
     padding: 20px;
+    margin-bottom: 40px;
   }
   #contact-us .contact-content .contact-info {
     width: 100%;
