@@ -24,22 +24,29 @@ a {
 
 /* Mobile Design */
 @media (max-width: 768px) {
+  body {
+    gap: 70px;
+  }
   nav {
-    height: 50px;
-    background-color: #fff;
-    box-shadow: 4px 4px 400px black;
+    height: 80px;
+    width: 100%;
   }
   nav .nav-wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 90%;
   }
-  nav .nav-wrapper a {
-    font-size: 18px;
+  nav .nav-wrapper .logo h1 {
+    font-size: 16px;
   }
-  header {
-    height: 100vh;
+  nav .nav-wrapper .link-wrapper {
+    gap: 50px;
+    display: none !important;
+  }
+  nav .nav-wrapper .link-wrapper a {
+    font-size: 1px;
+  }
+  nav .nav-wrapper .auth-button a {
+    padding: 5px 10px;
+    font-size: 14px;
   }
 }
 /* Navigation Bar */
