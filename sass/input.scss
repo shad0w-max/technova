@@ -80,6 +80,29 @@ a {
       }
     }
   }
+
+  header {
+    width: 100%;
+    height: 500px;
+    @include flex($justify: center); 
+
+    .header-content {
+      h1 {
+        font-size: 1rem !important;
+      }
+
+      p {
+        font-size: 1.5rem !important;
+        width: 100%;
+        align-self: center;
+      }
+
+      .waitlist a {
+        padding: 5px 20px;
+        font-size: 14px;
+      }
+    }
+  }
 }
 
 

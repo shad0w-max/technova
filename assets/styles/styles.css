@@ -48,6 +48,25 @@ a {
     padding: 5px 10px;
     font-size: 14px;
   }
+  header {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header .header-content h1 {
+    font-size: 1rem !important;
+  }
+  header .header-content p {
+    font-size: 1.5rem !important;
+    width: 100%;
+    align-self: center;
+  }
+  header .header-content .waitlist a {
+    padding: 5px 20px;
+    font-size: 14px;
+  }
 }
 /* Navigation Bar */
 nav {
